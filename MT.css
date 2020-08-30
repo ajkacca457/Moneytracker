@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sansita', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  background: linear-gradient(135deg, #feffff 0%,#d2ebf9 100%);
+  width: 50%;
+  margin: 2% auto;
+  padding: 2%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+h1 {
+  color:rgba(242, 142, 28, 1);
+  text-shadow: 1px 1px black;
+  margin-bottom:5%;
+}
+.underline {
+  width: 100%;
+  background-color:grey;
+  height:4px;
+  opacity: .5;
+  box-shadow:1px 1px black;
+}
+
+.balancecont {
+  margin: 3% 0;
+background: linear-gradient(135deg, #ffa84c 0%,#ff7b0d 100%);
+  padding: 2%;
+  border-radius: 10px;
+  color:white;
+  text-shadow: 2px 2px black;
+}
+
+.balancecont h3 {
+  text-align: left;
+}
+
+
+
+#types{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+
+#income {
+  background: linear-gradient(135deg, #299a0b 0%,#299a0b 100%);
+  padding: 2%;
+  margin: 3% 0;
+  color:white;
+  width: 30%;
+  border-radius: 10px;
+}
+
+#expense {
+  background: linear-gradient(135deg, #ff1a00 0%,#ff1a00 100%);
+  padding: 2%;
+  margin: 3% 0;
+  color:white;
+  width: 30%;
+  border-radius: 10px;
+}
+
+#underline2 {
+  width: 3px;
+  background-color: grey;
+  height:12vh;
+  opacity: .5;
+  box-shadow: 1px 1px black;
+}
+
+#history {
+  margin:2% 0;
+}
+
+#history h4 {
+  text-align: left;
+}
+#history ul {
+  list-style-type: none;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  border:1px black solid;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: white;
+  margin: 3% 0;
+}
+.minus {
+  border-right:8px red solid;
+}
+
+.plus {
+  border-right:8px green solid;
+}
+
+#newtransaction {
+background: linear-gradient(135deg, #ffc578 0%,#fb9d23 100%);
+text-align: left;
+padding: 2%;
+font-size: 90%;
+border-radius: 5px;
+color:black;
+}
+input {
+  display: block;
+  width: 100%;
+  height: 25px;
+  margin:4% 0;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
+  font-size: 110%;
+}
+input:focus {
+  outline: none;
+}
+
+
+#submit {
+  width: 100%;
+  padding: 3% 0;
+  border-radius: 5px;
+  border:none;
+  background-color:purple;
+  color:white;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 3%;
+}
+
+i {
+  margin-left:10px;
+  color:red;
+  cursor: pointer;
+}

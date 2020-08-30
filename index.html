@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Money Tracker</title>
+  <link rel="stylesheet" href="MT.css">
+  <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Money Tracker</h1>
+    <div class="underline"></div>
+
+    <div class="balancecont">
+      <h3>Your Current Balance:</h3>
+      <h2 id="tbalance">0$</h2>
+    </div>
+
+    <div id="types">
+    <div id="income"><h3>Income:</h3><h3>0$</h3></div>
+    <div id="underline2"></div>
+    <div id="expense"><h3>Expense:</h3><h3>0$</h3></div>
+    </div>
+
+    <div id="history">
+      <h4>Transaction History:</h4>
+        <ul>
+
+        </ul>
+    </div>
+
+
+    <div id="newtransaction">
+      <h3>Add New Transaction:</h3>
+      <input type="text" placeholder="Write the name of Transaction" id="tname">
+      <p>Put any kind of transaction like:Income-Expense-Savings..etc</p>
+      <input type="number" id="tval">
+      <button id="submit">Submit</button>
+    </div>
+
+
+  </div>
+
+
+
+
+
+<script type="text/javascript" src="MT.js"></script>
+</body>
+</html>
